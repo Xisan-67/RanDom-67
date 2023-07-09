@@ -43,5 +43,5 @@ $ rm -rf RanDom-67
 
 
 
-# Cridits By Dark_FixNeT_67_Team..
+# Credits By Dark_FixNeT_67_Team..
 #Thanks...🥰
