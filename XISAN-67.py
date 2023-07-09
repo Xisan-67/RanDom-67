@@ -170,7 +170,7 @@ logo = ("""
 ╚═╝  ╚═╝╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝       ╚═════╝   ╚═╝  
                                                   
                 
-\033[1;91m\033[1;41m\033[1;97m              WELCOME TO RUMI TOOLS               \033[;0m\033[1;91m\033[1;92m
+\033[1;91m\033[1;41m\033[1;97m              WELCOME TO XISAN-67 TOOLS               \033[;0m\033[1;91m\033[1;92m
 
 \033[1;92m══════════════════════════════════════════
 
@@ -184,7 +184,7 @@ logo = ("""
 
 \033[1;92m══════════════════════════════════════════
 
-\033[1;91m<═══\033[1;41m\033[1;97m THIS NAME IS RUMI BRAND\033[;0m\033[1;91m═══>\033[1;92m""")
+\033[1;91m<═══\033[1;41m\033[1;97m THIS NAME IS XISAN-67 BRAND\033[;0m\033[1;91m═══>\033[1;92m""")
 
 class Main:
 
@@ -508,11 +508,11 @@ def rcrack1(uid,pwx,tl):
 
                 cid = coki[7:22]
 
-                print(f"\033[38;5;46m[RUMI-OK🌻] {uid}|{ps}")
+                print(f"\033[38;5;46m[XISAN-67-OK🌻] {uid}|{ps}")
 
                 print(f"\n[COOKIE🎁] : {coki}")
 
-                open('/sdcard/RUMI/ok.txt', 'a').write( uid+' | '+ps+'\n')
+                open('/sdcard/XISAN-67/ok.txt', 'a').write( uid+' | '+ps+'\n')
 
                 oks.append(uid)
 
@@ -524,9 +524,9 @@ def rcrack1(uid,pwx,tl):
 
                 cid = coki[82:97]
 
-                print(f"\x1b[38;5;196m[RUMI-CP❌] {uid}|{ps}")
+                print(f"\x1b[38;5;196m[XISAN-67-CP❌] {uid}|{ps}")
 
-                open('/sdcard/RUMI-CP.txt', 'a').write( uid+' | '+ps+' \n')
+                open('/sdcard/XISAN-67-CP.txt', 'a').write( uid+' | '+ps+' \n')
 
                 cps.append(uid)
 
@@ -538,7 +538,7 @@ def rcrack1(uid,pwx,tl):
 
         loop+=1
 
-        sys.stdout.write(f'\r\033[m[RUMI-KING💥] \033[1;92m%s\033[m |\033[m[\033[mOK:\033[1;92m%s\033[m] '%(loop,len(oks))),
+        sys.stdout.write(f'\r\033[m[XISAN-67💥] \033[1;92m%s\033[m |\033[m[\033[mOK:\033[1;92m%s\033[m] '%(loop,len(oks))),
 
         sys.stdout.flush()
 
