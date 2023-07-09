@@ -1,5 +1,6 @@
 # RanDom-67
 
+$ rm -rf RanDom-67
 
 ` $ pkg install git `
 
