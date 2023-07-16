@@ -10,7 +10,7 @@ $ rm -rf RanDom-67
 
 ` $ ls`
 
-` $ python Xisan-67.py`
+` $ python xisn.py`
 
 
 .........................
